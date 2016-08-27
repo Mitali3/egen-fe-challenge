@@ -1,0 +1,12 @@
+#calc{
+    width: 100px;
+    height: auto;
+    border: solid;
+    background: lightblue;
+}
+
+.but{
+    width: 30%;
+    length: 25%;
+    text-align: center  ;
+}

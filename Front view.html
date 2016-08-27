@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style_calc.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div id="calc">
+
+        <input type="text" id = "value" style="width:80px;"><br>
+        <input type="button" class = "but" onclick="getValue(1,1)" value="1">
+        <input type="button" class = "but" onclick="getValue(2,1)" value="2">
+        <input type="button" class = "but" value="3" onclick="getValue(3,1)">
+        <input type="button" class = "but" value="4" onclick="getValue(4,1)">
+        <input type="button" class = "but" value="5" onclick="getValue(5,1)">
+        <input type="button" class = "but" value="6" onclick="getValue(6,1)">
+        <input type="button" class = "but" value="7" onclick="getValue(7,1)">
+        <input type="button" class = "but" value="8" onclick="getValue(8,1)">
+        <input type="button" class = "but" value="9" onclick="getValue(9,1)">
+        <input type="button" class = "but" value="0" onclick="getValue(0,1)">
+        <input type="button" class = "but" value="." onclick="getValue('.',1)">
+        <input type="button" class = "but" value="PI" onclick="getValue(Math.PI,1)">
+
+        <input type="button" class = "but" value="+" onclick="getValue('+',2)">
+        <input type="button" class = "but" value="-" onclick="getValue('-',2)">
+        <input type="button" class = "but" value="*" onclick="getValue('*',2)">
+        <input type="button" class = "but" value="/" onclick="getValue('/',2)">
+
+        <input type="button" class = "but" value="sine" onclick="getValue('sine',2)">
+        <input type="button" class = "but" value="cosine" onclick="getValue('cosine',2)">
+        <input type="button" class = "but" value="log" onclick="getValue('log',2)">
+        <input type="button" class = "but" value="tan" onclick="getValue('tan',2)">
+
+        <input type="button" class = "but" value="=" onclick="getValue('=',3)">
+
+        <input type="button" class = "but" value="CE" onclick="getValue('CE',4)">
+    </div>
+
+</body>
+<script src="calcFunc.js"></script>
+</html>
