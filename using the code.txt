@@ -1,0 +1,9 @@
+The design pattern used is State Pattern
+- Number (operand) is state 1
+- operator is state 2
+- = is state 3
+
+First operand needs to be entered followed by operator for example, input should be as follows:
+- 1, +, 2
+- Pi/2,=, sine, =
+- output will be displayed only on clicking "="
